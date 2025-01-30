@@ -1,0 +1,31 @@
+data:
+  raw_data_path: "data/raw/dataset.csv"
+  processed_data_path: "data/processed/processed_data.csv"
+  train_test_split: 0.8
+  sequence_length: 60
+
+model:
+  lstm:
+    input_size: 6  # Assuming 6 features in your data
+    hidden_size: 50
+    num_layers: 2
+    output_size: 1
+    dropout: 0.2
+  transformer:
+    num_layers: 2
+    d_model: 64
+    num_heads: 4
+    dff: 128
+    dropout: 0.1
+    input_size: 6  # Corrected to match your data features
+    output_size: 1
+
+training:
+  learning_rate: 0.001
+  loss: "mean_squared_error"
+  metrics: ["mean_absolute_error"]
+  batch_size: 32
+  num_epochs: 100
+
+evaluation:
+  test_size: 0.2
