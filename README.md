@@ -7,7 +7,7 @@ For this project, we used the following tools:
 ### 2. **Libraries and Frameworks**:
    - **Pandas**  
      - **Purpose**: Used for data manipulation and cleaning, specifically for loading CSV files, handling missing data, and processing the raw stock data.
-   - **NumPy**  
+   - **NumPy**   
      - **Purpose**: Often used for numerical operations, especially in handling and transforming data in arrays.
    - **PyTorch (Version 2.6.0)**  
      - **Purpose**: Used for building and training deep learning models (LSTM and Transformer).
