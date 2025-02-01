@@ -4,7 +4,7 @@ For this project, we used the following tools:
    - **Version**: Python 3.12.3  
    - **Purpose**: The main programming language for the entire project. It was used for data processing, model development, training, and evaluation.
 
-### 2. **Libraries and Frameworks**:
+### 2. **Libraries and Frameworks**: 
    - **Pandas**  
      - **Purpose**: Used for data manipulation and cleaning, specifically for loading CSV files, handling missing data, and processing the raw stock data.
    - **NumPy**   
